@@ -1,0 +1,139 @@
+<html>
+
+<head>
+    <title>Signup Page</title>
+    <style>
+        nav {
+            padding-left: 1%;
+            padding-right: 1%;
+            padding-top: 1%;
+            padding-bottom: 1%;
+            font-size: 100%;
+            font-family: sans-serif;
+        }
+        
+        input {
+            font-size: 18px;
+            padding-bottom: 12px;
+            margin-bottom: 36px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 1px solid #070707;
+            width: 100%;
+        }
+        
+        .inputbox {
+            padding-bottom: 40px;
+            padding-top: 80px;
+            padding-right: 80px;
+            padding-left: 80px;
+        }
+        
+        .buttons {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            background-color: white;
+            text-align: center;
+        }
+        
+        .buttons input {
+            font-size: 16px;
+            padding-left: 24px;
+            padding-right: 24px;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            color: white;
+            border: 0px;
+            background-color: #1099E2;
+        }
+        
+        .icons {
+            padding-bottom: 12px;
+            background-color: white;
+            padding-left: 40px;
+            padding-right: 24px;
+            text-align: center;
+        }
+        
+        .icons img {
+            width: 70px;
+            height: 70px;
+        }
+        
+        .heading {
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 12px;
+            font-size: 35px;
+            font-family: Impact, Haettenschweiler;
+        }
+        
+        #regform {
+            border-color: black;
+            border: 1px solid;
+            border-bottom: 1px;
+            width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+        }
+        
+        textarea {
+            font-size: 18px;
+            font-family: sans-serif;
+            padding-bottom: 12px;
+            width: 100%;
+        }
+        
+        .topbar {
+            background-color: rgba(50, 143, 138, 0.507);
+        }
+    </style>
+</head>
+
+<body>
+    <!--------topbar------------->
+    <div class="topbar">
+        <center>
+            <nav>
+                <a href="Base1.html"><span class="navlink">Trip</span></a>
+                <a href="aboutme.html"><span class="navlink">About Me</span></a>
+                <a href="contact.html"><span class="navlink">Contact Me</span></a>
+            </nav>
+        </center>
+    </div>
+    <!--------topbarEnded------------->
+
+    <form id="regform" method="GET">
+        <!-------------loginOptions--------->
+        <h3 align="center">Drop Your Details Below !!</h3>
+        <!-------------InputBox---------->
+        <div class="inputbox">
+            <input type=text name="Name" maxlength="30" placeholder="First Name">
+            <br>
+            <input type=tel name="Phone No:" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" maxlength="10" placeholder="Phone" required="">
+            <br>
+            <input type=text name="Email" maxlength="30" placeholder="Email">
+            <br>
+            <textarea rows="10" cols="60" placeholder="Ask Here...." required=""></textarea><br><b <br>
+        </div>
+
+        <!-----------------IconsTry-------------->
+        <div class="icons">
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="https://i.pinimg.com/originals/58/f4/72/58f4723d8f23906bdcb058604075ad2a.png" alt="facebook"></a>
+            <a href="https://www.gmail.com" target="_blank">
+                <img src="https://cdn0.iconfinder.com/data/icons/material-circle-apps/512/icon-email-material-design-512.png" alt="gmail"></a>
+            <a href="https://www.instagram.com" target="_blank">
+                <img src="https://cdn0.iconfinder.com/data/icons/social-media-circle-6/1024/instagram-512.png " alt="instagram"></a>
+        </div>
+        <!-------------SubmitButton------------>
+        <div class="buttons">
+            <input type="submit" value="Submit">
+            
+        </div>
+    </form>
+</body>
+
+</html>
